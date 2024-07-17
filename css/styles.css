@@ -620,9 +620,7 @@ input:valid ~ label{
         max-height: 300px; 
     }
 
-    .carousel-caption{
-        opacity: 1 !important;
-    }
+    
 
 }
 .carousel-inner {
@@ -630,10 +628,9 @@ input:valid ~ label{
 }
 
 .carousel-item img {
-    width: 150%;
-    height: 500px;
-    object-fit: none;
-    object-position: center; 
+    width: 100%; 
+    height: auto; 
+    border-radius: 10px;
     filter: blur(0px);
     cursor: pointer;
     transition: .9s;
