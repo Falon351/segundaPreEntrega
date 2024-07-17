@@ -645,6 +645,8 @@ input:valid ~ label{
     color: white;
     margin-left: 9px;
     margin-bottom: 20px;
+    border-top: 1px solid white;
+    padding-top: 30px;
 }
 
 .precio-item{
