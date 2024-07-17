@@ -160,6 +160,9 @@ h1 {
 }
 
 /* Icono de WhatsApp flotante */
+
+
+
 .wspfloat {
     position: fixed;
     bottom: 20px;
@@ -168,7 +171,7 @@ h1 {
 }
 
 .wspfloat img {
-    width: 60px;
+    width: 45px;
     height: auto;
     border-radius: 50%;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
@@ -310,52 +313,54 @@ footer {
 
 
 .info-nosotros {
-    max-width: 100%; /* Permitir que ocupe todo el ancho disponible */
-    margin: 50px auto; /* Reducir el margen superior y centralizar */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.904)), url(../img/inicio\ imagen.jpg);
+    width: 70%; 
+    height: 190;
+    margin: 150px auto 20px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.904)), url(../img/photocall-juegos-neon-dibujado-mano_23-2149860761.avif);
     background-size: cover;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 0 15px rgb(230, 7, 163);
     text-align: center;
-    margin-top: 100px; /* Ajustar el margen superior para dispositivos móviles */
-    padding-left: 20px; /* Reducir el padding izquierdo */
-    padding-right: 20px; /* Reducir el padding derecho */
+    display: block;
+    justify-content: center;
+    align-items: center;
 }
 
 .titulo-nosotros {
-    font-size: 2rem; /* Reducir el tamaño del título para móviles */
+    font-size: 2rem; 
     color: #cfc7c7;
     text-align: center;
-    margin-bottom: 30px; /* Reducir el margen inferior */
+    margin-bottom: 30px; 
     text-shadow: 0 0 10px rgba(90, 66, 92, 0.925);
     filter: brightness(1.2);
 }
 
 .info-nosotros p {
-    font-size: 1rem; /* Reducir el tamaño del texto para móviles */
+    font-size: 1rem; 
     line-height: 1.6;
     margin-bottom: 20px;
-    text-align: justify; /* Justificar texto para una mejor legibilidad */
+    text-align: justify; 
     font-family: "Playwrite PE", cursive;
 }
 
 .info-nosotros ul {
-    list-style-type: none; /* Quitar viñetas */
+    list-style-type: none; 
     padding: 0;
     margin-bottom: 20px;
     text-align: left;
 }
 
 .info-nosotros ul li {
-    font-size: 1rem; /* Reducir el tamaño de los elementos de la lista para móviles */
-    line-height: 1.6;
+    font-size: 1rem;
+    text-align: center;
     font-family: "Playwrite PE", cursive;
     border: 1px solid rgb(255, 5, 255);
     border-radius: 10px;
+    margin: 15px auto; 
     padding: 10px 15px;
-    box-shadow: 0 0 8px rgb(0, 0, 0);
-    margin-bottom: 10px; /* Reducir el margen inferior */
+    box-shadow: 0 0 10px rgb(230, 7, 92);
+    width: 80%; 
 }
 
 
