@@ -18,6 +18,7 @@ body {
 
 
 /* medida para celulares */
+
 @media (max-width:1023px) {
     /* header */
     .navbar-custom{
@@ -49,6 +50,18 @@ body {
     .input-contenedor {
         max-width: 250px; 
     }
+
+    .contenedor-items{
+        grid-template-columns: 1fr 1fr !important;
+    }
+
+    .producto-vista-celular{
+        opacity: 1 !important;
+    }
+
+    .producto p{
+        opacity: 0;
+    }
 }
 
 /* medida para resulucion monitor */
@@ -65,6 +78,8 @@ body {
         max-width: 250px; 
     }
 }
+
+
 
 
 
@@ -234,6 +249,10 @@ h1 {
     gap: 20px;
     padding: 20px;
     z-index: 1; 
+}
+
+.producto-vista-celular{
+    opacity: 0;
 }
 
 .producto {
@@ -589,6 +608,23 @@ input:valid ~ label{
     position: relative; 
 }
 
+@media (max-width: 768px) {
+    #carouselExampleCaptions {
+        margin-top: 10px; 
+        background-color: rgba(0, 0, 0, 0.7); 
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.7); 
+        max-width: 90%; 
+        margin: 0 auto; 
+    }
+    .carousel-item img {
+        max-height: 300px; 
+    }
+
+    .carousel-caption{
+        opacity: 1 !important;
+    }
+
+}
 .carousel-inner {
     border-radius: 10px;
 }
