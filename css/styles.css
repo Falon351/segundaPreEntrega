@@ -16,7 +16,7 @@ body {
     overflow-x: hidden;
 }
 
-/* media quarie */
+
 /* medida para celulares */
 @media (max-width:1023px) {
     /* header */
@@ -309,88 +309,90 @@ footer {
 }
 
 
-/* Estilos para Nosotros */
 .info-nosotros {
-    max-width: 900px;
-    margin: 100px auto 20px;
+    max-width: 100%; /* Permitir que ocupe todo el ancho disponible */
+    margin: 50px auto; /* Reducir el margen superior y centralizar */
     background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.904)), url(../img/inicio\ imagen.jpg);
     background-size: cover;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 0 15px rgb(230, 7, 163);
     text-align: center;
-    margin-top: 150px;
-    padding-left: 300px;
-    padding-right: 300px;
+    margin-top: 100px; /* Ajustar el margen superior para dispositivos móviles */
+    padding-left: 20px; /* Reducir el padding izquierdo */
+    padding-right: 20px; /* Reducir el padding derecho */
 }
 
 .titulo-nosotros {
-    font-size: 2.5rem;
+    font-size: 2rem; /* Reducir el tamaño del título para móviles */
     color: #cfc7c7;
     text-align: center;
-    margin-bottom: 40px;
-    padding-left: 30px;
-    text-shadow: 0 0 15px rgba(90, 66, 92, 0.925);
+    margin-bottom: 30px; /* Reducir el margen inferior */
+    text-shadow: 0 0 10px rgba(90, 66, 92, 0.925);
     filter: brightness(1.2);
 }
 
 .info-nosotros p {
-    font-size: 1.2rem;
-    line-height: 1.8;
+    font-size: 1rem; /* Reducir el tamaño del texto para móviles */
+    line-height: 1.6;
     margin-bottom: 20px;
-    text-align: center;
+    text-align: justify; /* Justificar texto para una mejor legibilidad */
     font-family: "Playwrite PE", cursive;
 }
 
 .info-nosotros ul {
-    margin-left: auto;
-    margin-right: auto;
+    list-style-type: none; /* Quitar viñetas */
+    padding: 0;
     margin-bottom: 20px;
     text-align: left;
 }
 
 .info-nosotros ul li {
-    font-size: 1.3rem;
+    font-size: 1rem; /* Reducir el tamaño de los elementos de la lista para móviles */
     line-height: 1.6;
-    text-align: left;
     font-family: "Playwrite PE", cursive;
     border: 1px solid rgb(255, 5, 255);
     border-radius: 10px;
-    padding: 0px 12px;
+    padding: 10px 15px;
     box-shadow: 0 0 8px rgb(0, 0, 0);
-    margin: 20px;
+    margin-bottom: 10px; /* Reducir el margen inferior */
 }
 
+
 /* Estilos para Sucursales */
+
+
 .info-sucursales {
-    max-width: 950px;
-    margin: 100px auto 20px;
+    width: 70%; 
+    height: 190;
+    margin: 150px auto 20px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.904)), url(../img/photocall-juegos-neon-dibujado-mano_23-2149860761.avif);
     background-size: cover;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 0 15px rgb(230, 7, 163);
     text-align: center;
-    position: relative;
+    display: block;
+    justify-content: center;
+    align-items: center;
 }
 
 .titulo-sucursales {
     font-size: 2.5rem;
     color: #cfc7c7;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 70px;
     padding-left: 30px;
     text-shadow: 0 0 15px rgba(90, 66, 92, 0.925);
     filter: brightness(1.2);
-    margin-top: -20px;
+    margin-top: 1px;
 }
 
 .mapa {
-    margin-top: 20px;
-    height: 400px;
+    margin-top: 0px;
+    height: 400px; 
     width: 70%; 
-    margin-left: auto; 
-    margin-right: auto; 
+    margin: 0 auto; 
     box-shadow: 0 0 15px rgb(7, 197, 230);
     border: 1px solid rgb(5, 168, 243);
     border-radius: 10px;
@@ -399,12 +401,10 @@ footer {
 
 .info-sucursales ul {
     list-style-type: none;
-    margin-left: 220px;
-    margin-right: auto;
-    margin-bottom: 40px;
-    text-align: center; 
+    margin: 0 auto; 
     padding: 0;
     gap: 20px;
+    max-width: 90%; 
 }
 
 .info-sucursales ul li {
@@ -413,17 +413,10 @@ footer {
     font-family: "Playwrite PE", cursive;
     border: 1px solid rgb(255, 5, 255);
     border-radius: 10px;
-    margin: 15px;
+    margin: 15px auto; 
     padding: 10px 15px;
-    box-shadow: 0 0 10px rgb(230, 7, 92); width: 60%;
-}
-
-.info-sucursales > .mapa {
-    width: 70%;
-    position: relative;
-    clear: both;
-    margin-left: auto; 
-    margin-right: auto; 
+    box-shadow: 0 0 10px rgb(230, 7, 92);
+    width: 80%; 
 }
 
 .info-sucursales > .mapa iframe {
