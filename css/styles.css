@@ -53,6 +53,8 @@ body {
 
     .contenedor-items{
         grid-template-columns: 1fr 1fr !important;
+        gap: 0px !important;
+        
     }
 
     .producto-vista-celular{
@@ -619,7 +621,12 @@ input:valid ~ label{
     .carousel-item img {
         max-height: 300px; 
     }
-
+    .contenedor-tienda .contenedor-items{
+        width: 90% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        gap: 8px !important;
+    }
     
 
 }
